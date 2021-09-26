@@ -1,0 +1,12 @@
+/home/user/vscode/Book/Chapter14/ParticalApps/NorthwindEntitesLib/bin/Debug/net5.0/NorthwindEntitesLib.deps.json
+/home/user/vscode/Book/Chapter14/ParticalApps/NorthwindEntitesLib/bin/Debug/net5.0/NorthwindEntitesLib.dll
+/home/user/vscode/Book/Chapter14/ParticalApps/NorthwindEntitesLib/bin/Debug/net5.0/ref/NorthwindEntitesLib.dll
+/home/user/vscode/Book/Chapter14/ParticalApps/NorthwindEntitesLib/bin/Debug/net5.0/NorthwindEntitesLib.pdb
+/home/user/vscode/Book/Chapter14/ParticalApps/NorthwindEntitesLib/obj/Debug/net5.0/NorthwindEntitesLib.csproj.AssemblyReference.cache
+/home/user/vscode/Book/Chapter14/ParticalApps/NorthwindEntitesLib/obj/Debug/net5.0/NorthwindEntitesLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/vscode/Book/Chapter14/ParticalApps/NorthwindEntitesLib/obj/Debug/net5.0/NorthwindEntitesLib.AssemblyInfoInputs.cache
+/home/user/vscode/Book/Chapter14/ParticalApps/NorthwindEntitesLib/obj/Debug/net5.0/NorthwindEntitesLib.AssemblyInfo.cs
+/home/user/vscode/Book/Chapter14/ParticalApps/NorthwindEntitesLib/obj/Debug/net5.0/NorthwindEntitesLib.csproj.CoreCompileInputs.cache
+/home/user/vscode/Book/Chapter14/ParticalApps/NorthwindEntitesLib/obj/Debug/net5.0/NorthwindEntitesLib.dll
+/home/user/vscode/Book/Chapter14/ParticalApps/NorthwindEntitesLib/obj/Debug/net5.0/ref/NorthwindEntitesLib.dll
+/home/user/vscode/Book/Chapter14/ParticalApps/NorthwindEntitesLib/obj/Debug/net5.0/NorthwindEntitesLib.pdb
