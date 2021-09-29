@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g2ke0g/+k+M+Tl39fX7lGFK8bULAeben0jmX6tAtxwUvUfCt0xY/y71dvarvastsmR+h+lgPcAmNFfJ478TUog==",
+  "dgSpecHash": "GyaMzx3CvlaxRL8z9VmeGXec2jxE4qZyxLWTzotn3oxkiaK9bA8vZmlY1wGpFJDKhqPcgNj8lbapMmkGb5e2Qw==",
   "success": true,
-  "projectFilePath": "/home/user/vscode/Book/Chapter14/ParticalApps/NorthwindEntitesLib/NorthwindEntitesLib.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\CSharp8_book\\Code\\Chapter14\\ParticalApps\\Chapter14\\ParticalApps\\NorthwindEntitesLib\\NorthwindEntitesLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
