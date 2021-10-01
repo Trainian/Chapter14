@@ -50,7 +50,60 @@ namespace Packt.Shared
                 .Property(c => c.Country)
                 .HasMaxLength(15);
 
-            
+            modelBuilder.Entity<Customer>()
+                .HasMany(c => c.Orders)
+                .WithOne(o => o.Customer);
+
+            modelBuilder.Entity<Employee>()
+                .Property(c => c.LastName)
+                .IsRequired()
+                .HasMaxLength(20);
+
+            modelBuilder.Entity<Employee>()
+                .Property(c => c.FirstName)
+                .IsRequired()
+                .HasMaxLength(10);
+
+            modelBuilder.Entity<Employee>()
+                .Property(c => c.Country)
+                .HasMaxLength(15);
+
+            modelBuilder.Entity<Employee>()
+                .HasMany(e => e.Orders)
+                .WithOne(o => o.Employee);
+
+            modelBuilder.Entity<Product>()
+                .Property(c => c.ProductName)
+                .IsRequired()
+                .HasMaxLength(40);
+
+            modelBuilder.Entity<Product>()
+                .HasOne(p => p.Category)
+                .WithMany(c => c.Products);
+
+            modelBuilder.Entity<Product>()
+                .HasOne(p => p.Supplier)
+                .WithMany(s => s.Products);
+
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.Shipper)
+                .WithMany(s => s.Orders)
+                .HasForeignKey(o => o.ShipVia);
+
+            modelBuilder.Entity<OrderDetail>()
+                .ToTable("Order Details");
+
+            modelBuilder.Entity<OrderDetail>()
+                .HasKey(od => new {od.OrderID, od.ProductID});
+
+            modelBuilder.Entity<Supplier>()
+                .Property(c => c.CompanyName)
+                .IsRequired()
+                .HasMaxLength(40);
+
+            modelBuilder.Entity<Supplier>()
+                .HasMany(s => s.Products)
+                .WithOne(p => p.Supplier);
         }
     }
 }
